@@ -1,0 +1,56 @@
+.card{
+  display: grid;
+  grid-template-columns: 1 1;
+  grid-template-rows: 1 1 1 1;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  
+
+
+}
+.container{
+  width: 30%;
+  padding: 30px;
+
+}
+
+.name{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.image{
+  grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 180px;
+    justify-self: center;
+   
+}
+.images{
+
+  width: 70%;
+  padding: 10px;
+}
+.name{
+  justify-self: center;
+  align-self: center;
+
+}
+.description, .price{
+  justify-self: center;
+  align-self: center;
+
+
+}
+.likeButton{
+  justify-self: center;
+  align-self: center;
+  width: 60%;
+
+
+}
