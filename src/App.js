@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import data from './data'
+import image from './heart.png'
 
 class PuppyStore extends React.Component {
   state={
